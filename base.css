@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #404241;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #212121;
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #EFF100;
+    min-height: 150px;
+}
+
+ul {
+    list-style: none; padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+a { color:white; text-decoration: none;}
+a:hover {
+    color: yellow;
+    text-decoration: underline ;
+    font-size: larger;
+    transition: 0.5s;
+}
+
+h6{
+    text-align: center;
+    margin-top: 60px;
+}
+
+table thead tr th{
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+
+table{
+    -webkit-box-shadow: 15px 15px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 15px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 15px 18px 0px rgba(0,0,0,0.75);
+    border: solid 2px #404241;
+}
+
